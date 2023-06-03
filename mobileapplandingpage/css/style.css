@@ -1,0 +1,25 @@
+body{
+   background-image: url('../images/bg.png');
+   height: 100vh;
+   background-position: center;
+   background-size: cover;
+}
+
+nav{
+    display: flex;
+}
+.icon{
+    display: none;
+}
+nav .unorderlist{
+    display: flex ;
+    flex: 2;
+    list-style: none;
+    align-items: center;
+    justify-content:space-around;
+    color: white;
+
+}
+nav .navlogo{
+    flex: ;
+}
