@@ -15,11 +15,53 @@ nav .unorderlist{
     display: flex ;
     flex: 2;
     list-style: none;
-    align-items: center;
-    justify-content:space-around;
+    align-items:center;
+    justify-content:space-between;
     color: white;
+    margin-right: 90px;
 
 }
-nav .navlogo{
-    flex: ;
+.navlogo{
+    flex: 1;
+    margin: 10px 40px;
+}
+
+.buttom{
+        border-radius: 20px;
+        padding:2px 20px;
+        background-color: rgb(221, 126, 221);
+        color: white;
+        border-color:none;
+}
+
+section{
+    display: flex;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    margin: 0 auto;
+    
+
+}
+.quaility{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.companyh1{
+    color: white;
+    font-size: 50px;
+    margin-top: 7px;
+}
+.right{
+    height: 80vh;
+    display: flex;
+    align-self:flex-end;
+    flex-direction: row-reverse; 
+    align-items:ri
+   
 }
