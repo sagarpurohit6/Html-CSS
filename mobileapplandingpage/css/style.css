@@ -7,23 +7,25 @@ body{
 
 nav{
     display: flex;
+    height: 20vh;
 }
 .icon{
     display: none;
 }
 nav .unorderlist{
     display: flex ;
-    flex: 2;
+    flex: 3;
     list-style: none;
     align-items:center;
-    justify-content:space-between;
+    justify-content:space-around;
     color: white;
-    margin-right: 90px;
+
 
 }
 .navlogo{
     flex: 1;
-    margin: 10px 40px;
+    margin: 0 5px;
+    
 }
 
 .buttom{
@@ -58,10 +60,33 @@ section{
     margin-top: 7px;
 }
 .right{
+    overflow:visible;
     height: 80vh;
     display: flex;
     align-self:flex-end;
     flex-direction: row-reverse; 
-    align-items:ri
+    right: 0%;
+    bottom: 0%;
    
+}
+
+@media screen and (max-width:800px){
+    .right{
+        height: 50vh;
+    }
+    .playlogo{
+        height: 30px;
+    }
+    .companyh1{
+        font-size: 30px;
+    }
+    .quaility{
+        font-size: 15px;
+    }
+    .orderlist{
+        display: none;
+    }
+    .icon{
+        display: inline;
+    }
 }
